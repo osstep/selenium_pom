@@ -32,7 +32,7 @@ class ProductPage(BasePage):
             "Success message is presented, but should not be"
 
     def should_be_disappeared(self):
-        assert self.is_disappeared(*ProductsPageLocators.PRODUCT_NAME_ALERT), "аллерт с сообщением не удалился"
+        assert self.is_disappeared(*ProductsPageLocators.PRODUCT_NAME_ALERT), "алерт с сообщением не удалился"
 
 
 
